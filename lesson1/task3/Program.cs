@@ -1,11 +1,24 @@
 ﻿int a = 8;
 int b = 7;
+int c = 4;
+int d = 9;
+int e = 14;
+int max = a;
 
-if (a>b)
+if (b > max)
 {
-Console.WriteLine(a); 
+    max = b;
 }
-else
+if (c > max)
 {
-Console.WriteLine(b); 
+    max = c;
 }
+if (d > max)
+{
+    max = d;
+}
+if (e > max)
+{
+    max = e;
+}
+Console.WriteLine(max);
